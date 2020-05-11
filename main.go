@@ -2,10 +2,10 @@ package main
 
 import (
 	"ds/problems"
-	"fmt"
 )
 
 func main() {
-	fmt.Println("hey i am in main")
-	problems.Recurrance()
+	// Problem 1: Find the repetetive characters in a string
+	problems.FindRepetetiveValues("asdfasdfasd")
+
 }
